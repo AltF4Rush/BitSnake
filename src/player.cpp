@@ -14,23 +14,23 @@ void Player :: init(){
   Player::snake.setPosition(sf::Vector2f(x,y));
 }
 
-void Player :: move(){
-  if(sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A)){
-    snake.move(sf::Vector2f(x+=speed, 0));
-  }
-  else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S)){
-    snake.move(sf::Vector2f(0, y+=speed));
-  }
-  else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W)){
-    snake.move(sf::Vector2f(0, y-=speed));
-  }
-  else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D)){
-    snake.move(sf::Vector2f(x-=speed, 0));
-  }
-  else{
-    snake.move(sf::Vector2f(0,0));
-  }
+void Player::move() {
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A)) {
+        x -= speed;  // Move left
+    } 
+    else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D)) {
+        x += speed;  // Move right
+    } 
+    else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W)) {
+        y -= speed;  // Move up
+    } 
+    else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S)) {
+        y += speed;  // Move down
+    }
+    
+    snake.setPosition({x, y});
 }
+
 
 void Player :: draw(sf::RenderWindow& window){
   window.draw(snake);

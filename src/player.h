@@ -1,10 +1,10 @@
-#pragma once
+#pragma once;
 #include <SFML/Graphics.hpp>
 class Player{
   private:
     float x = 100;
     float y = 100;
-    int speed = 8;
+    int speed = 2;
   public:
     Player();
     void move();
