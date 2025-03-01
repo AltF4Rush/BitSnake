@@ -80,6 +80,7 @@ CMakeFiles/main.dir/src/main.cpp.o: /home/kaido/Projects/BitSnake/src/main.cpp \
   _deps/sfml-src/include/SFML/Window/WindowBase.inl \
   _deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
   _deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
+  /home/kaido/Projects/BitSnake/src/game.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -277,6 +278,7 @@ CMakeFiles/main.dir/src/main.cpp.o: /home/kaido/Projects/BitSnake/src/main.cpp \
   /usr/include/c++/14.2.1/iomanip \
   /usr/include/c++/14.2.1/ios \
   /usr/include/c++/14.2.1/iosfwd \
+  /usr/include/c++/14.2.1/iostream \
   /usr/include/c++/14.2.1/istream \
   /usr/include/c++/14.2.1/iterator \
   /usr/include/c++/14.2.1/limits \
@@ -505,8 +507,6 @@ CMakeFiles/main.dir/src/main.cpp.o:
 
 /usr/include/c++/14.2.1/pstl/glue_memory_defs.h:
 
-/usr/include/c++/14.2.1/ostream:
-
 /usr/include/c++/14.2.1/optional:
 
 /usr/include/c++/14.2.1/new:
@@ -675,6 +675,8 @@ _deps/sfml-src/include/SFML/Window/Event.inl:
 
 /usr/include/c++/14.2.1/concepts:
 
+/usr/include/c++/14.2.1/iostream:
+
 /usr/include/bits/stdint-uintn.h:
 
 /usr/include/asm/errno.h:
@@ -821,6 +823,10 @@ _deps/sfml-src/include/SFML/Graphics/Transform.inl:
 
 _deps/sfml-src/include/SFML/Graphics/Transformable.hpp:
 
+/usr/include/c++/14.2.1/cstdio:
+
+_deps/sfml-src/include/SFML/Graphics/Vertex.hpp:
+
 /usr/include/c++/14.2.1/bits/shared_ptr_base.h:
 
 _deps/sfml-src/include/SFML/Graphics/Text.hpp:
@@ -842,6 +848,10 @@ _deps/sfml-src/include/SFML/System/Clock.hpp:
 _deps/sfml-src/include/SFML/Graphics.hpp:
 
 _deps/sfml-src/include/SFML/System/FileInputStream.hpp:
+
+/usr/include/c++/14.2.1/ostream:
+
+/home/kaido/Projects/BitSnake/src/game.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h:
 
@@ -1172,7 +1182,3 @@ _deps/sfml-build/lib/libsfml-graphics.a:
 /usr/include/c++/14.2.1/clocale:
 
 /usr/include/c++/14.2.1/compare:
-
-_deps/sfml-src/include/SFML/Graphics/Vertex.hpp:
-
-/usr/include/c++/14.2.1/cstdio:

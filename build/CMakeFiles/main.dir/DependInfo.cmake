@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/kaido/Projects/BitSnake/src/game.cpp" "CMakeFiles/main.dir/src/game.cpp.o" "gcc" "CMakeFiles/main.dir/src/game.cpp.o.d"
   "/home/kaido/Projects/BitSnake/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.o" "gcc" "CMakeFiles/main.dir/src/main.cpp.o.d"
+  "/home/kaido/Projects/BitSnake/src/player.cpp" "CMakeFiles/main.dir/src/player.cpp.o" "gcc" "CMakeFiles/main.dir/src/player.cpp.o.d"
   "" "main" "gcc" "CMakeFiles/main.dir/link.d"
   )
 
