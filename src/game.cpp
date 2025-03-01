@@ -5,14 +5,14 @@ Game :: Game() : window(sf::VideoMode({720,480}), "BitSnake", sf::Style::Default
   window.setFramerateLimit(60);
 }
 
+void Game :: update(){
+  player.move();
+}
 
 void Game :: render(){
   window.clear(sf::Color::Black);
+  player.draw(window);
   window.display();  
-}
-
-void Game :: update(){
-  
 }
 
 void Game :: handle_event(){
@@ -26,6 +26,7 @@ void Game :: handle_event(){
 void Game :: run(){
   while(window.isOpen()){
     render();
+    update();
     handle_event();
   }
 }

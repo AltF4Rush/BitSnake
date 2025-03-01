@@ -1,6 +1,18 @@
-#pragma once;
+#pragma once
 #include <SFML/Graphics.hpp>
-
 class Player{
+  private:
+    float x = 100;
+    float y = 100;
+    int speed = 8;
+  public:
+    Player();
+    void move();
+    void die();
+    void eat();
+    void init();
+    void draw(sf::RenderWindow & window);
 
+  private:
+    sf::RectangleShape snake;
 };
