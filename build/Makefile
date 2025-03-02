@@ -239,6 +239,30 @@ sfml-audio/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
 .PHONY : sfml-audio/fast
 
+src/apple.o: src/apple.cpp.o
+.PHONY : src/apple.o
+
+# target to build an object file
+src/apple.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/apple.cpp.o
+.PHONY : src/apple.cpp.o
+
+src/apple.i: src/apple.cpp.i
+.PHONY : src/apple.i
+
+# target to preprocess a source file
+src/apple.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/apple.cpp.i
+.PHONY : src/apple.cpp.i
+
+src/apple.s: src/apple.cpp.s
+.PHONY : src/apple.s
+
+# target to generate assembly for a file
+src/apple.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/apple.cpp.s
+.PHONY : src/apple.cpp.s
+
 src/game.o: src/game.cpp.o
 .PHONY : src/game.o
 
@@ -329,6 +353,9 @@ help:
 	@echo "... sfml-network"
 	@echo "... sfml-system"
 	@echo "... sfml-window"
+	@echo "... src/apple.o"
+	@echo "... src/apple.i"
+	@echo "... src/apple.s"
 	@echo "... src/game.o"
 	@echo "... src/game.i"
 	@echo "... src/game.s"

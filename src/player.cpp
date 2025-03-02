@@ -16,16 +16,16 @@ void Player :: init(){
 
 void Player::move() {
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A)) {
-        x -= speed;  // Move left
-    } 
+        x -= speed;
+    }
     else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D)) {
-        x += speed;  // Move right
+        x += speed;
     } 
     else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W)) {
-        y -= speed;  // Move up
+        y -= speed;
     } 
     else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S)) {
-        y += speed;  // Move down
+        y += speed;
     }
     
     snake.setPosition({x, y});

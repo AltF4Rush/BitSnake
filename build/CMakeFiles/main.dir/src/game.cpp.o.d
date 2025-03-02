@@ -276,4 +276,5 @@ CMakeFiles/main.dir/src/game.cpp.o: \
  /home/kaido/Projects/BitSnake/build/_deps/sfml-src/include/SFML/Graphics/Sprite.hpp \
  /home/kaido/Projects/BitSnake/build/_deps/sfml-src/include/SFML/Graphics/Text.hpp \
  /home/kaido/Projects/BitSnake/build/_deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp \
- /home/kaido/Projects/BitSnake/src/././player.h
+ /home/kaido/Projects/BitSnake/src/././player.h \
+ /home/kaido/Projects/BitSnake/src/././apple.h

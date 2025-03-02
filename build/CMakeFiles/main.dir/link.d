@@ -5,6 +5,7 @@ main: \
   CMakeFiles/main.dir/src/main.cpp.o \
   CMakeFiles/main.dir/src/game.cpp.o \
   CMakeFiles/main.dir/src/player.cpp.o \
+  CMakeFiles/main.dir/src/apple.cpp.o \
   _deps/sfml-build/lib/libsfml-graphics.a \
   _deps/sfml-build/lib/libsfml-window.a \
   /usr/lib/libXrandr.so \
@@ -74,6 +75,8 @@ CMakeFiles/main.dir/src/main.cpp.o:
 CMakeFiles/main.dir/src/game.cpp.o:
 
 CMakeFiles/main.dir/src/player.cpp.o:
+
+CMakeFiles/main.dir/src/apple.cpp.o:
 
 _deps/sfml-build/lib/libsfml-graphics.a:
 

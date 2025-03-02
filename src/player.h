@@ -12,7 +12,7 @@ class Player{
     void eat();
     void init();
     void draw(sf::RenderWindow & window);
-
+    bool isCollided();
   private:
     sf::RectangleShape snake;
 };
